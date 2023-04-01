@@ -1,5 +1,20 @@
-# Autoconf
-Service bootstraper / auto config helper module
+# What ?
+
+Service bootstraper / config generator for BackKit
+
+# Why ?
+
+BackKit being a microframework, is configurable and permissive by nature.
+
+- But do you want to write basic configuration of each module you add to your application ?
+- No you don't !
+
+You obviously want each module to work out of the box with at least a basic configuration.
+
+This module is used by backkit compatible modles as dev dependency to help you generate default configuration or/and customise it with interactive prompts
+
+In early version, this prompt used to be implemented by modules them selves, but it became hard to maintain, read and created a lot of duplicated code across backkit modules, so i created this dependency to make things more maintanable, clean and avoir to repeat myself
+
 
 # Usage example
 
