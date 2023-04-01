@@ -1,6 +1,6 @@
 {
   "name": "@backkit/autoconf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Service bootstraper / auto config helper module for backkit node microframework",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,7 @@
     "js-beautify": "^1.8.8",
     "js-yaml": "^3.14.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "publishConfig": {
     "access": "public"
   }
