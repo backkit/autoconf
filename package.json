@@ -1,6 +1,6 @@
 {
   "name": "@backkit/autoconf",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Service bootstraper / auto config helper module for backkit node microframework",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,7 @@
     "url": "https://github.com/backkit/autoconf/issues"
   },
   "homepage": "https://github.com/backkit/autoconf#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "inquirer": "^6.2.0",
     "js-beautify": "^1.8.8",
