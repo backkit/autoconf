@@ -18,11 +18,12 @@
     "url": "https://github.com/backkit/autoconf/issues"
   },
   "homepage": "https://github.com/backkit/autoconf#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "inquirer": "^6.2.0",
     "js-beautify": "^1.8.8",
     "js-yaml": "^3.14.1"
+  },
+  "devDependencies": {
   },
   "publishConfig": {
     "access": "public"
