@@ -1,0 +1,31 @@
+{
+  "name": "@backkit/autoconf",
+  "version": "0.0.1",
+  "description": "Service bootstraper / auto config helper module for backkit node microframework",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "preversion": "test `git rev-parse --abbrev-ref HEAD` = \"main\" && exit 0 || exit 1",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backkit/autoconf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backkit/autoconf/issues"
+  },
+  "homepage": "https://github.com/backkit/autoconf#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "inquirer": "^6.2.0",
+    "js-beautify": "^1.8.8",
+    "js-yaml": "^3.14.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
